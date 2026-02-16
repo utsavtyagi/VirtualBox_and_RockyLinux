@@ -1,3 +1,6 @@
+![Oracle VirtualBox](https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png)
+![Rocky Linux](https://upload.wikimedia.org/wikipedia/commons/3/3a/Rocky_Linux_logo.svg)
+
 # Install Oracle VirtualBox and Rocky Linux on Windows
 
 This tutorial explains how to **download and install the latest Oracle VirtualBox on Windows** and then **install the latest Rocky Linux** inside it.
