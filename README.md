@@ -166,7 +166,7 @@ ssh <username>@<Linux-IP>
 
 Example:
 ```bash
-ssh rocky@192.168.1.50
+ssh utsav@192.168.1.50
 ```
 
 ## References
