@@ -6,10 +6,10 @@ This tutorial explains how to **download and install the latest Oracle VirtualBo
 
 ## Prerequisites
 
-- Windows 10 / Windows 11 (64-bit)
-- At least **8 GB RAM** (4 GB minimum)
+- Windows 10 / Windows 11
+- At least **8 GB RAM**
 - Internet connection
-- Hardware virtualization enabled in BIOS (Intel VT-x / AMD-V)
+- Hardware virtualization enabled in BIOS
 
 ---
 
@@ -23,10 +23,6 @@ Official website (always provides latest version):
 
 Download:
 - **Windows hosts** → `VirtualBox-x.x.x-Win.exe`
-
-(Optional but recommended)
-- **Oracle VM VirtualBox Extension Pack**
-  - Must match the same VirtualBox version
 
 ---
 
@@ -44,18 +40,6 @@ Download:
 
 ---
 
-### Step 3: Install Extension Pack (Recommended)
-
-1. Double-click the downloaded Extension Pack
-2. Click **Install**
-3. Accept the license
-
-This enables:
-- USB 2.0 / 3.0
-- Better device support
-- RDP features
-
----
 
 ## Part 2: Download Rocky Linux (Latest)
 
@@ -81,20 +65,6 @@ Choose **Architecture**:
 
 ---
 
-## Direct Download Links (Latest Rocky Linux)
-
-> These links always point to the newest stable release.
-
-### Minimal ISO
-🔗 https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9-Minimal-x86_64.iso
-
-### Boot ISO
-🔗 https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9-Boot-x86_64.iso
-
-### DVD ISO
-🔗 https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9-DVD-x86_64.iso
-
----
 
 ## Part 3: Create Rocky Linux VM in VirtualBox
 
