@@ -73,12 +73,27 @@ Choose **Architecture**:
 1. Open **VirtualBox**
 2. Click **Machine** -> **New**
 
-**VM Details**
-- Name: `RockyLinux`
-- Type: `Linux`
-- Version: `Red Hat (64-bit)`
+**Virtual machine name and operating system**
+- VM Name: `RockyLinux`
+- VM Folder: `D:\VirtualMachines`
+- ISO Image: `D:\Downloads\Rocky-xx.x-x86_64-minimal.iso`
+- OS: `Linux`
+- OS Distribution: `Red Hat`
+- OS Version: `Red Hat (64-bit)`
 
-Click **Next**
+**set up unattended guest OS installation**
+- User Name: `utsav`
+- Password: `********`
+
+**Specify vitual hardware**
+- Base Memory: **2048 MB** (minimum RAM)
+- CPU: **1 cores** (or more if available)
+
+**Specify vitual hard disk**
+- Create a new Virtual Hard Disk:
+  - Hard Disk File Location and Size:
+    - **E:\VirtualMachines\RockyLinux\RockyLinux.vdi**
+    - **20 GB**
 
 ---
 
