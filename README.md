@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" alt="Oracle VirtualBox" width="80"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/rocky-linux/branding/main/logo/png/rocky-linux-logo-light.png" width="80"/>
+  <img src="https://github.com/rocky-linux/branding/blob/main/logo/out/icon-bg_black-primary-1024x.png" width="80"/>
 </p>
 
 
