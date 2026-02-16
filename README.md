@@ -128,55 +128,46 @@ Choose **Architecture**:
 - User Creation: Create user (Add administrative priviliges to this user account)
 - Click on **Begin Installation**
 
-- Software Selection:
-  - **Minimal Install**
+---
+
+## Part 6: Change Network to Host Network (Bridged Adapter)
+
+To allow the Rocky Linux VM to get an IP address from the same network as your host machine:
+
+1. Select the VM → **Settings**
+2. Go to **Network**
+3. Set **Attached to** → **Bridged Adapter**
+4. Select your active 
+network adapter (Ethernet or Wi-Fi)
+5. Click **OK**
 
 ---
 
-### Step 3: Set Root Password
-
-1. Click **Root Password**
-2. Set a strong password
-3. Click **Done**
-
-(Optional) Create a normal user.
-
----
-
-### Step 4: Begin Installation
-
-Click **Begin Installation**
-
-Wait for completion.
-
----
-
-### Step 5: Reboot
-
-1. Click **Reboot System**
-2. Remove ISO if prompted
-
----
-
-## Part 6: First Login
+## Part 7: First Login
 
 Login using:
-- `root` user  
-or  
-- The user you created
+- The user you created during installation  
+🎉 **Rocky Linux installation completed successfully.**
 
-🎉 Rocky Linux installation completed successfully.
-
----
-
-## What to Do Next
-
-- Install **Guest Additions**
-- Configure **Network & SSH**
-- Setup **Docker / Jenkins / Ansible**
-- Use as **Server or Dev Environment**
+**Get the Linux IP Address**
+Run this command inside the Rocky Linux VM:
+```bash
+ip a
+```
 
 ---
+
+### Connect to Rocky Linux Using Command Prompt or PowerShell
+You can connect to the Linux machine remotely using **SSH**.
+
+```bash
+ssh <username>@<Linux-IP>
+```
+
+Example:
+```bash
+ssh rocky@192.168.1.50
+```
 
 ## References
 
