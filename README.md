@@ -120,9 +120,14 @@ Choose **Architecture**:
 ### Step 2: Installation Settings
 
 - Language: English
-- Keyboard: English (US)
-- Network: Enable Ethernet
+- Keyboard: English (India)
 - Installation Destination: Auto
+- Network: Enable Ethernet
+- Time & Date: Asia/Kolkata timezone
+- Root Account: Disabled
+- User Creation: Create user (Add administrative priviliges to this user account)
+- Click on **Begin Installation**
+
 - Software Selection:
   - **Minimal Install**
 
