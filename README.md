@@ -71,7 +71,7 @@ Choose **Architecture**:
 ### Step 1: Create New VM
 
 1. Open **VirtualBox**
-2. Click **New**
+2. Click **Machine** -> **New**
 
 **VM Details**
 - Name: `RockyLinux`
@@ -84,8 +84,8 @@ Click **Next**
 
 ### Step 2: Memory & CPU
 
-- RAM: **4096 MB** (minimum 2048 MB)
-- CPU: **2 cores** (or more if available)
+- RAM: **2048 MB** (minimum)
+- CPU: **1 cores** (or more if available)
 
 ---
 
@@ -93,7 +93,7 @@ Click **Next**
 
 - Disk Type: **VDI**
 - Allocation: **Dynamically allocated**
-- Size: **40 GB**
+- Size: **20 GB**
 
 Click **Create**
 
