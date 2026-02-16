@@ -1,4 +1,4 @@
-# Install Oracle VirtualBox and Rocky Linux on Windows (Latest Version)
+# Install Oracle VirtualBox and Rocky Linux on Windows
 
 This tutorial explains how to **download and install the latest Oracle VirtualBox on Windows** and then **install the latest Rocky Linux** inside it.
 
