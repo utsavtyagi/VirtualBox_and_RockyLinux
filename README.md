@@ -1,5 +1,9 @@
-![Oracle VirtualBox](https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png)
-![Rocky Linux](https://upload.wikimedia.org/wikipedia/commons/3/3a/Rocky_Linux_logo.svg)
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" alt="Oracle VirtualBox" width="80"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/rocky-linux/branding/main/logo/png/rocky-linux-logo-light.png" width="80"/>
+</p>
+
 
 # Install Oracle VirtualBox and Rocky Linux on Windows
 
