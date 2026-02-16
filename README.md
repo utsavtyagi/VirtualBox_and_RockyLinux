@@ -76,14 +76,9 @@ Choose **Architecture**:
 **Virtual machine name and operating system**
 - VM Name: `RockyLinux`
 - VM Folder: `D:\VirtualMachines`
-- ISO Image: `D:\Downloads\Rocky-xx.x-x86_64-minimal.iso`
 - OS: `Linux`
 - OS Distribution: `Red Hat`
 - OS Version: `Red Hat (64-bit)`
-
-**set up unattended guest OS installation**
-- User Name: `utsav`
-- Password: `********`
 
 **Specify vitual hardware**
 - Base Memory: **2048 MB** (minimum RAM)
@@ -98,31 +93,16 @@ Choose **Architecture**:
 3. Click **Finish**
 ---
 
-### Step 2: Memory & CPU
-
-- RAM: **2048 MB** (minimum)
-- CPU: **1 cores** (or more if available)
-
----
-
-### Step 3: Virtual Hard Disk
-
-- Disk Type: **VDI**
-- Allocation: **Dynamically allocated**
-- Size: **20 GB**
-
-Click **Create**
-
----
 
 ## Part 4: Attach Rocky Linux ISO
 
 1. Select VM → **Settings**
 2. Go to **Storage**
-3. Under **Controller IDE**, click **Empty**
-4. Click disk icon → **Choose a disk file**
-5. Select Rocky Linux ISO
-6. Click **OK**
+3. Remove **Empty.iso** under **Controller IDE**
+4. Right click **Controller IDE**, click **Optical Drive**
+5. Add Rocky Linux ISO
+6. Select Rocky Linux ISO, click **Choose**
+7. Click **OK**
 
 ---
 
@@ -131,8 +111,9 @@ Click **Create**
 ### Step 1: Start Installer
 
 1. Select VM → **Start**
-2. Choose **Install Rocky Linux**
+2. Choose **Test this Media & install Rocky Linux XX.X**
 3. Press **Enter**
+4. wait for installation
 
 ---
 
