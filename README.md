@@ -95,6 +95,7 @@ Choose **Architecture**:
     - **E:\VirtualMachines\RockyLinux\RockyLinux.vdi**
     - **20 GB**
 
+3. Click **Finish**
 ---
 
 ### Step 2: Memory & CPU
