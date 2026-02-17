@@ -183,6 +183,14 @@ ssh utsav@192.168.1.50
 ```
 
 ---
+### Change hostname
+
+You can change  the Linux machine name
+
+```bash
+sudo hostnamectl set-hostname my-rocky
+```
+---
 
 ## References
 
